@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95C0A96E2B67D54900A16BF0 /* ruschale-ruschale-regular-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95C0A96D2B67D54900A16BF0 /* ruschale-ruschale-regular-400.ttf */; };
+		95F7B0DA2B5EBBD300EFF52D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F7B0D92B5EBBD300EFF52D /* AppDelegate.swift */; };
+		95F7B0DC2B5EBBD300EFF52D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F7B0DB2B5EBBD300EFF52D /* SceneDelegate.swift */; };
+		95F7B0DE2B5EBBD300EFF52D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F7B0DD2B5EBBD300EFF52D /* ViewController.swift */; };
+		95F7B0E12B5EBBD400EFF52D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F7B0DF2B5EBBD400EFF52D /* Main.storyboard */; };
+		95F7B0E32B5EBBD600EFF52D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F7B0E22B5EBBD600EFF52D /* Assets.xcassets */; };
+		95F7B0E62B5EBBD600EFF52D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F7B0E42B5EBBD600EFF52D /* LaunchScreen.storyboard */; };
+		95F7B0EE2B5EC5E700EFF52D /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 95F7B0ED2B5EC5E700EFF52D /* start.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		95C0A96D2B67D54900A16BF0 /* ruschale-ruschale-regular-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ruschale-ruschale-regular-400.ttf"; sourceTree = "<group>"; };
+		95F7B0D62B5EBBD300EFF52D /* Project5-WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project5-WordScramble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F7B0D92B5EBBD300EFF52D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95F7B0DB2B5EBBD300EFF52D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		95F7B0DD2B5EBBD300EFF52D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95F7B0E02B5EBBD400EFF52D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95F7B0E22B5EBBD600EFF52D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95F7B0E52B5EBBD600EFF52D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95F7B0E72B5EBBD600EFF52D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F7B0ED2B5EC5E700EFF52D /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95F7B0D32B5EBBD300EFF52D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95C0A96C2B67D54900A16BF0 /* ruschale font */ = {
+			isa = PBXGroup;
+			children = (
+				95C0A96D2B67D54900A16BF0 /* ruschale-ruschale-regular-400.ttf */,
+			);
+			path = "ruschale font";
+			sourceTree = "<group>";
+		};
+		95F7B0CD2B5EBBD300EFF52D = {
+			isa = PBXGroup;
+			children = (
+				95F7B0D82B5EBBD300EFF52D /* Project5-WordScramble */,
+				95F7B0D72B5EBBD300EFF52D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95F7B0D72B5EBBD300EFF52D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95F7B0D62B5EBBD300EFF52D /* Project5-WordScramble.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95F7B0D82B5EBBD300EFF52D /* Project5-WordScramble */ = {
+			isa = PBXGroup;
+			children = (
+				95F7B0D92B5EBBD300EFF52D /* AppDelegate.swift */,
+				95F7B0DB2B5EBBD300EFF52D /* SceneDelegate.swift */,
+				95F7B0DD2B5EBBD300EFF52D /* ViewController.swift */,
+				95F7B0DF2B5EBBD400EFF52D /* Main.storyboard */,
+				95F7B0E22B5EBBD600EFF52D /* Assets.xcassets */,
+				95F7B0E42B5EBBD600EFF52D /* LaunchScreen.storyboard */,
+				95F7B0E72B5EBBD600EFF52D /* Info.plist */,
+				95F7B0ED2B5EC5E700EFF52D /* start.txt */,
+				95C0A96C2B67D54900A16BF0 /* ruschale font */,
+			);
+			path = "Project5-WordScramble";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95F7B0D52B5EBBD300EFF52D /* Project5-WordScramble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F7B0EA2B5EBBD600EFF52D /* Build configuration list for PBXNativeTarget "Project5-WordScramble" */;
+			buildPhases = (
+				95F7B0D22B5EBBD300EFF52D /* Sources */,
+				95F7B0D32B5EBBD300EFF52D /* Frameworks */,
+				95F7B0D42B5EBBD300EFF52D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project5-WordScramble";
+			productName = "Project5-WordScramble";
+			productReference = 95F7B0D62B5EBBD300EFF52D /* Project5-WordScramble.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95F7B0CE2B5EBBD300EFF52D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					95F7B0D52B5EBBD300EFF52D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 95F7B0D12B5EBBD300EFF52D /* Build configuration list for PBXProject "Project5-WordScramble" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95F7B0CD2B5EBBD300EFF52D;
+			productRefGroup = 95F7B0D72B5EBBD300EFF52D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95F7B0D52B5EBBD300EFF52D /* Project5-WordScramble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95F7B0D42B5EBBD300EFF52D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C0A96E2B67D54900A16BF0 /* ruschale-ruschale-regular-400.ttf in Resources */,
+				95F7B0E62B5EBBD600EFF52D /* LaunchScreen.storyboard in Resources */,
+				95F7B0EE2B5EC5E700EFF52D /* start.txt in Resources */,
+				95F7B0E32B5EBBD600EFF52D /* Assets.xcassets in Resources */,
+				95F7B0E12B5EBBD400EFF52D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95F7B0D22B5EBBD300EFF52D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F7B0DE2B5EBBD300EFF52D /* ViewController.swift in Sources */,
+				95F7B0DA2B5EBBD300EFF52D /* AppDelegate.swift in Sources */,
+				95F7B0DC2B5EBBD300EFF52D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95F7B0DF2B5EBBD400EFF52D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F7B0E02B5EBBD400EFF52D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95F7B0E42B5EBBD600EFF52D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F7B0E52B5EBBD600EFF52D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95F7B0E82B5EBBD600EFF52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95F7B0E92B5EBBD600EFF52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95F7B0EB2B5EBBD600EFF52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9BMU2K8BB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Project5-WordScramble/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MatteoOrru.Project5-WordScramble";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95F7B0EC2B5EBBD600EFF52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9BMU2K8BB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Project5-WordScramble/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MatteoOrru.Project5-WordScramble";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95F7B0D12B5EBBD300EFF52D /* Build configuration list for PBXProject "Project5-WordScramble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F7B0E82B5EBBD600EFF52D /* Debug */,
+				95F7B0E92B5EBBD600EFF52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F7B0EA2B5EBBD600EFF52D /* Build configuration list for PBXNativeTarget "Project5-WordScramble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F7B0EB2B5EBBD600EFF52D /* Debug */,
+				95F7B0EC2B5EBBD600EFF52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95F7B0CE2B5EBBD300EFF52D /* Project object */;
+}
