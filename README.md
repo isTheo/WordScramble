@@ -1,5 +1,6 @@
 # WordScramble
 
+Project 5 from Hacking With Swift.
 
 - Learned more about UITableView, reloading data and inserting rows
 - How to add text fields to UIAlertController for user input
