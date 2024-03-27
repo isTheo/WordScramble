@@ -1,6 +1,5 @@
 # WordScramble
 
-Word Scramble is an anagram-based word game where players rearrange letters to form words.
 
 - Learned more about UITableView, reloading data and inserting rows
 - How to add text fields to UIAlertController for user input
