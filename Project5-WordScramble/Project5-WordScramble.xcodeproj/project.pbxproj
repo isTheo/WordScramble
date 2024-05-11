@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		95C0A96E2B67D54900A16BF0 /* ruschale-ruschale-regular-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95C0A96D2B67D54900A16BF0 /* ruschale-ruschale-regular-400.ttf */; };
 		95F7B0DA2B5EBBD300EFF52D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F7B0D92B5EBBD300EFF52D /* AppDelegate.swift */; };
 		95F7B0DC2B5EBBD300EFF52D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F7B0DB2B5EBBD300EFF52D /* SceneDelegate.swift */; };
 		95F7B0DE2B5EBBD300EFF52D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F7B0DD2B5EBBD300EFF52D /* ViewController.swift */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		95C0A96D2B67D54900A16BF0 /* ruschale-ruschale-regular-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ruschale-ruschale-regular-400.ttf"; sourceTree = "<group>"; };
 		95F7B0D62B5EBBD300EFF52D /* Project5-WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project5-WordScramble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F7B0D92B5EBBD300EFF52D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95F7B0DB2B5EBBD300EFF52D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,14 +39,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		95C0A96C2B67D54900A16BF0 /* ruschale font */ = {
-			isa = PBXGroup;
-			children = (
-				95C0A96D2B67D54900A16BF0 /* ruschale-ruschale-regular-400.ttf */,
-			);
-			path = "ruschale font";
-			sourceTree = "<group>";
-		};
 		95F7B0CD2B5EBBD300EFF52D = {
 			isa = PBXGroup;
 			children = (
@@ -76,7 +66,6 @@
 				95F7B0E42B5EBBD600EFF52D /* LaunchScreen.storyboard */,
 				95F7B0E72B5EBBD600EFF52D /* Info.plist */,
 				95F7B0ED2B5EC5E700EFF52D /* start.txt */,
-				95C0A96C2B67D54900A16BF0 /* ruschale font */,
 			);
 			path = "Project5-WordScramble";
 			sourceTree = "<group>";
@@ -139,7 +128,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95C0A96E2B67D54900A16BF0 /* ruschale-ruschale-regular-400.ttf in Resources */,
 				95F7B0E62B5EBBD600EFF52D /* LaunchScreen.storyboard in Resources */,
 				95F7B0EE2B5EC5E700EFF52D /* start.txt in Resources */,
 				95F7B0E32B5EBBD600EFF52D /* Assets.xcassets in Resources */,

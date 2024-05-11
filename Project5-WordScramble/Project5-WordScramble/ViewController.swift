@@ -16,12 +16,9 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        
         //set the title a little bit lower
         navigationController?.navigationBar.setTitleVerticalPositionAdjustment(+8, for: .default)
         
-        //set the background
         if let backgroundImage = UIImage(named: "WSbackground.png", in: Bundle.main, compatibleWith: nil) {
             
             let backgroundImageView = UIImageView(image: backgroundImage)
@@ -36,30 +33,22 @@ class ViewController: UITableViewController {
         
         //this block checks for and unwraps the contents of the "start" file, then converts it to an array
         if let startWordsURL = Bundle.main.url(forResource: "start", withExtension: "txt") {
-            //try? means "call this code, and if it throws an error send back nil"
             if let startWords = try? String(contentsOf: startWordsURL) {
                 allWords = startWords.components(separatedBy: "\n")
             }
         }
         
-        
         if allWords.isEmpty {
             allWords = ["silkworm"]
         }
         
-        
         startGame()
-        
     }
 
     
-    //startGame will be called every time we want to generate a new word for the player to work with
     func startGame() {
-    //sets our viewcontroller title to be a random word in the array, which will be the word the player has to find
         title = allWords.randomElement()
-        //remove all value from the usedWords array
         usedWords.removeAll(keepingCapacity: true)
-        //calls the reloadData method of tableView
         tableView.reloadData()
     }
     
@@ -72,7 +61,6 @@ class ViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return usedWords.count
     }
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Word", for: indexPath)
         cell.textLabel?.text = usedWords[indexPath.row]
@@ -115,12 +103,11 @@ class ViewController: UITableViewController {
     }
     
     
-    
     func submit(_ answer: String) {
         showErrorMessage(answer)
     }
     
-    //The showErrorMessage method needs to check if the player's word can be formed with the given letters, avoiding duplicates, and ensuring that it is a real English word.
+    //this method needs to check if the player's word can be formed with the given letters, avoiding duplicates, and ensuring that it is a real English word
     func showErrorMessage(_ text: String) {
         
         let lowerAnswer = text.lowercased()
@@ -175,6 +162,9 @@ class ViewController: UITableViewController {
         ac.addAction(submitAction)
         present(ac, animated: true)
     }
+    
+    
+    
     
 }
 
